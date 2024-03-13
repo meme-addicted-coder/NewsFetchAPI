@@ -1,0 +1,125 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    background-image: url('images/top-view-old-french-newspaper-pieces_23-2149318857.avif');
+
+}
+/*Global Css*/
+.obj-width{
+    max-width: 2100px;
+    margin: auto;
+}
+nav{
+    background: #164b57c5 ;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+    background-image:initial;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 0;
+    
+}
+.navbar .logo{
+    font-size: 8.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+    font-size: 3.2rem;
+    letter-spacing: 2.5px;
+}
+.navbar #search{
+    margin-right: 1rem;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    border:none;
+    text-size-adjust: 1rem;
+    font-size: 30px;
+}
+.navbar #searchBtn{
+    background-color: #a9c6cec5;
+    margin-right: 1rem;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-size-adjust: 1.5rem;
+    font-size: 30px;
+}
+.blogcard{
+    background-color: #f4f4f4;
+    width: 400px;
+    margin: 60px;
+    padding: 1rem;
+    border: 1px solid #2d4c50;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+}
+.blogcard img{
+    width: 100%;
+    height: 280px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+.blogcard:hover{
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+}
+.blogcard h2{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+}
+.blogcard p{
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+#blogcont{
+    display: flex;
+    padding: 3rem 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+@media (max-width: 991px){   
+    .navbar .logo{
+        font-size: 2rem;
+        margin: 0 1rem 0 1rem;
+    }
+    .navbar #search{
+        font-size: 0.9rem;
+        width: 170px;
+        margin: 0 0 0.5rem 0;
+        padding: 9px 8px;
+    }
+    .navbar #searchBtn{
+        font-size: 1rem;
+        padding: 9px 8px;
+    }
+    .blogcard{
+        width: 100%;
+        margin: 0 1rem 1rem 1rem;
+    }
+
+}
+
+
+#footer{
+    background-color: #164b57c5;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 0.3rem;
+    
+}
+
